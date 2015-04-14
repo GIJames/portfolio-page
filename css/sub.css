@@ -1,0 +1,131 @@
+.error {
+			color: #FF0000;
+		}
+		
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	display:flex;
+}
+
+#intro {
+	width:400px;
+	flex-shrink: 0;
+}
+
+.introp {
+	padding: 50% 10%;
+}
+
+.player {
+	width: 100%;
+	-webkit-animation: collapsePlayer .25s; /* Chrome, Safari, Opera */
+	-webkit-animation-fill-mode: forwards;
+    animation: collapsePlayer .25s;
+	scrolling: 0;
+	border: 0;
+}
+
+.player-big {
+	border: 0;
+	width: 100%;
+	-webkit-animation: expandPlayer .25s; /* Chrome, Safari, Opera */
+	-webkit-animation-fill-mode: forwards;
+    animation: expandPlayer .25s;
+	scrolling: 0;
+}
+
+iframe{
+	border:none;
+	display:block;
+}
+
+/* Code for Chrome, Safari and Opera */
+@-webkit-keyframes expandPlayer {
+    from {
+	height: 120px;
+
+	}
+    to {
+	height: 450px;
+
+	}
+}
+
+/* Standard syntax */
+@keyframes expandPlayer {
+    from {
+	height: 120px;
+
+	}
+	to{
+	height: 450px;
+
+	}
+}
+
+/* Code for Chrome, Safari and Opera */
+@-webkit-keyframes collapsePlayer {
+    from {
+	height: 450px;
+
+	}
+	to {
+	height: 120px;
+
+	}
+}
+
+/* Standard syntax */
+@keyframes collapsePlayer {
+    from {
+	height: 450px;
+
+	}
+	to {
+	height: 120px;
+
+	}
+}
+
+.bcContainer {
+	width: 400px;
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+.formLabel {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+div {
+	overflow-x: hidden;
+}
+
+table {
+	width: 800px;
+}
+
+tr {
+	text-align: center;
+}
+
+th, td {
+	width: 33%;
+}
+
+td{
+	height: 100px;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}

@@ -1,0 +1,62 @@
+{ "flashes":[
+	{
+		"name":"Falling Snow",
+		"width":1280,
+		"height":720,
+		"description":"A particle simulation with effects based on cursor position. Click to alternate between an attractive and a repulsive force."
+	},
+	{
+		"name":"Heart",
+		"width":1280,
+		"height":720,
+		"description":"A perspective approximation using affine transformations on a shape based on cursor position."
+	},
+	{
+		"name":"Machine Music",
+		"width":1280,
+		"height":720,
+		"description":"An experiment on embedding note data in a flash and synchronizing it with music."
+	},
+	{
+		"name":"Pixel Ripples",
+		"width":640,
+		"height":360,
+		"description":"An experiment on shading static pixels to form images, rather than transforming shapes."
+	},
+	{
+		"name":"Left And Right",
+		"width":700,
+		"height":500,
+		"description":"An experiment with audio-generated and tempo-synced visuals."
+	},
+	{
+		"name":"Mode 7",
+		"width":512,
+		"height":478,
+		"description":"An implementation of a rendering system most commonly known as \"mode 7,\" referring to its use in the Super NES."
+	},
+	{
+		"name":"Seaside Scene",
+		"width":480,
+		"height":640,
+		"description":"A clock with embedded audio and internet radio capabilities. Art by 1041uuu."
+	},
+	{
+		"name":"Headcase",
+		"width":512,
+		"height":400,
+		"description":"A test of basing visuals on an audio waveform and its corresponding fourier transform data. Music by Headcase."
+	},
+	{
+		"name":"Forgotten Place",
+		"width":1280,
+		"height":480,
+		"description":"An early test of independently looping audio and visuals. Art from 5734l3r, music by Zinovia."
+	},
+	{
+		"name":"Seven Seas",
+		"width":936,
+		"height":720,
+		"description":"A simple visualization based on album art. Music and art by Simple Machines."
+	}
+]}
